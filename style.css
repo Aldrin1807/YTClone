@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:wght@400;500&display=swap');
+body{
+    background-color: #f9f9f9;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.logo{
+    height: 25px;
+    margin: 7px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.YTSearch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.headerSearch{
+    outline: none;
+    padding: 4px;
+    width: 30em;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerSearch::-webkit-input-placeholder{
+    font-size: 17px;
+}
+.searchButton{
+    padding: 8px;
+    border: 1px solid grey;
+    background-color: #f8f8f8;
+    padding-left: 25px;
+    padding-right: 25px;
+    outline: none;
+    cursor: pointer;
+}
+.searchButton i{
+    color: #606060;
+    font-size: 15px;
+}
+.HeadersIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.HeaderIcon{
+    color: #606060;
+    margin: 13px;
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.HeaderIconavatar{
+    border-radius: 200px;
+}
+.ikona{
+    border-radius: 200px;
+    height: 45px;
+}
+.YTBottomSection{
+    display: flex;
+    flex-direction: row;
+}
+.Sidebar{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+.SidebarField{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    cursor: pointer;
+}
+.SidebarField:hover{
+    background-color: #e5e5e5ab;
+}
+.SidebarField i{
+    font-size: 15px;
+    color: #606060;
+    margin: 10px;
+    margin-right: 25px;
+    margin-left: 20px;
+
+}
+.SidebarField h1{
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Sidebar_HR{
+    height: 1px;
+    border-top:1px solid rgba(128,128,128,0.397);
+    width: 100%;
+    margin: 10px;
+}
+.Videos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    flex: 1;
+    margin-left: 250px;
+    width: 100%;
+}
+.Video{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 270px;
+    padding: 5px;
+    cursor: pointer;
+}
+.Thumbnail{
+    height: auto;
+    width: 260px;
+}
+.Details{
+    display: flex;
+    flex-direction: row;
+}
+.channelThumbnail{
+    border-radius: 200px;
+    height: 40px;
+    margin-top: 12px;
+}
+.DetailsText{
+    display: flex;
+    flex-direction: column;
+}
+.Title{
+    font-size: 15px;
+    font-family:'Roboto';
+    color: black;
+    font-weight: 500;
+    margin: 10px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.ChannelName,.Views{
+    font-size: 13px;
+    font-family:'Roboto';
+    color: black;
+    font-weight: 400;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.Views{
+    margin-top: -12px;
+}
